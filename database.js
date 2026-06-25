@@ -671,37 +671,37 @@ const projects = [
     "meta": "Stills from Onelight color grading project: Garnier",
     "images": [
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.3.1.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.7.1 7.JPG",
         "title": "Frame 01",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-wide"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.7.3 3.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.8.1 4.JPG",
         "title": "Frame 02",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.9.3 2.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.9.3.JPG",
         "title": "Frame 03",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.12.3 4.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.12.3 3.JPG",
         "title": "Frame 04",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.16.1 2.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.14.1.JPG",
         "title": "Frame 05",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.25.1 3.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.17.1 2.JPG",
         "title": "Frame 06",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-wide"

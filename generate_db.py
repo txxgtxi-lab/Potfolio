@@ -53,6 +53,9 @@ def generate_database():
         # Shift sampling offset for Before Morning project (20260204) to get a completely new set of shots
         if '20260204' in folder_name:
             image_files = image_files[5:88]
+        # Shift sampling offset for Garnier project to get a completely new set of beauty shots
+        elif 'garnier' in folder_name.lower():
+            image_files = image_files[4:45]
         
         # Sample at most 6 images, evenly distributed, with strict deduplication
         total_files = len(image_files)
