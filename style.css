@@ -97,7 +97,7 @@ body {
 .portfolio-container {
   max-width: var(--container-max-width);
   margin: 0 auto;
-  padding: 2rem 2rem 6rem 2rem;
+  padding: 5rem 2rem 6rem 2rem;
 }
 
 /* ==========================================================================
