@@ -16,6 +16,38 @@ def generate_database():
 
     projects = []
     
+    # Process Behind the Scenes first
+    bts_dir = 'เบื้องหลัง'
+    if os.path.exists(bts_dir) and os.path.isdir(bts_dir):
+        bts_images = []
+        bts_files = []
+        for file in os.listdir(bts_dir):
+            if file.lower().endswith(('.jpg', '.jpeg', '.png')) and not file.startswith('._'):
+                bts_files.append(file)
+        bts_files.sort(key=natural_sort_key)
+        
+        for idx, img_file in enumerate(bts_files):
+            rel_path = os.path.join(bts_dir, img_file).replace('\\', '/')
+            if idx % 5 == 0:
+                layout = 'span-wide'
+            else:
+                layout = 'span-normal'
+            bts_images.append({
+                'src': rel_path,
+                'title': f"Behind the Scenes {idx + 1:02d}",
+                'desc': f"ภาพบรรยากาศเบื้องหลังการทำงานและการปรับแต่งสี",
+                'layout': layout
+            })
+        if bts_images:
+            projects.append({
+                'id': 'behind-the-scenes',
+                'title': 'เบื้องหลังการทำงานจริง',
+                'category': 'behind-the-scenes',
+                'typeLabel': 'Behind the Scenes',
+                'meta': 'ภาพบรรยากาศการทำงานและเบื้องหลังการปรับแต่งสี Onelight',
+                'images': bts_images
+            })
+            
     # Get all subdirectories in Colorist
     subdirs = sorted([d for d in os.listdir(colorist_dir) if os.path.isdir(os.path.join(colorist_dir, d))])
     

@@ -18,8 +18,8 @@
   --text-muted: #6e6e7d;
   
   /* Fonts */
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'Outfit', sans-serif;
+  --font-display: 'Syne', 'Prompt', sans-serif;
+  --font-body: 'Outfit', 'Prompt', sans-serif;
   
   /* UI System */
   --radius-sm: 4px;

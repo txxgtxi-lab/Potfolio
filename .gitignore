@@ -97,6 +97,10 @@ Pot/Colorist/20260206 LISTERINE POCKETMIST/*
 !Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/
 Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/*
 
+# Unignore directory: เบื้องหลัง
+!เบื้องหลัง/
+เบื้องหลัง/*
+
 # Whitelist only the active portfolio images
 !Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.1.jpg
 !Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.11.jpg
@@ -216,6 +220,11 @@ Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/*
 !Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_1.9.1.jpg
 !Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_2.1.1.jpg
 !Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_3.1.1.jpg
+!เบื้องหลัง/Screenshot 2025-10-27 233506.png
+!เบื้องหลัง/Screenshot 2025-10-27 233739.png
+!เบื้องหลัง/Screenshot 2025-10-27 234015.png
+!เบื้องหลัง/Screenshot 2025-10-27 234104.png
+!เบื้องหลัง/Screenshot 2025-10-27 234426.png
 
 # Ignore config and log files
 .agents/

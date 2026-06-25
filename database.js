@@ -1,6 +1,45 @@
 /* Automatically generated database file by generate_db.py */
 const projects = [
   {
+    "id": "behind-the-scenes",
+    "title": "เบื้องหลังการทำงานจริง",
+    "category": "behind-the-scenes",
+    "typeLabel": "Behind the Scenes",
+    "meta": "ภาพบรรยากาศการทำงานและเบื้องหลังการปรับแต่งสี Onelight",
+    "images": [
+      {
+        "src": "เบื้องหลัง/Screenshot 2025-10-27 233506.png",
+        "title": "Behind the Scenes 01",
+        "desc": "ภาพบรรยากาศเบื้องหลังการทำงานและการปรับแต่งสี",
+        "layout": "span-wide"
+      },
+      {
+        "src": "เบื้องหลัง/Screenshot 2025-10-27 233739.png",
+        "title": "Behind the Scenes 02",
+        "desc": "ภาพบรรยากาศเบื้องหลังการทำงานและการปรับแต่งสี",
+        "layout": "span-normal"
+      },
+      {
+        "src": "เบื้องหลัง/Screenshot 2025-10-27 234015.png",
+        "title": "Behind the Scenes 03",
+        "desc": "ภาพบรรยากาศเบื้องหลังการทำงานและการปรับแต่งสี",
+        "layout": "span-normal"
+      },
+      {
+        "src": "เบื้องหลัง/Screenshot 2025-10-27 234104.png",
+        "title": "Behind the Scenes 04",
+        "desc": "ภาพบรรยากาศเบื้องหลังการทำงานและการปรับแต่งสี",
+        "layout": "span-normal"
+      },
+      {
+        "src": "เบื้องหลัง/Screenshot 2025-10-27 234426.png",
+        "title": "Behind the Scenes 05",
+        "desc": "ภาพบรรยากาศเบื้องหลังการทำงานและการปรับแต่งสี",
+        "layout": "span-normal"
+      }
+    ]
+  },
+  {
     "id": "20230708-sherlock-holmes",
     "title": "Sherlock holmes",
     "category": "onelight",
