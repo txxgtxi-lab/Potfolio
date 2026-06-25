@@ -683,7 +683,7 @@ const projects = [
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.9.3.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.13.1.JPG",
         "title": "Frame 03",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-normal"
@@ -695,7 +695,7 @@ const projects = [
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20251020 Garnier/default_1.14.1.JPG",
+        "src": "Pot/Colorist/20251020 Garnier/default_1.16.2.JPG",
         "title": "Frame 05",
         "desc": "Onelight color grading showcase still from Garnier",
         "layout": "span-normal"

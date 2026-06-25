@@ -87,6 +87,12 @@ def generate_database():
                     seen.add(f)
                     unique_files.append(f)
             image_files = unique_files
+            
+        # Override specific frames for Garnier as requested by user
+        if 'garnier' in folder_name.lower():
+            if len(image_files) >= 6:
+                image_files[2] = 'default_1.13.1.JPG'
+                image_files[4] = 'default_1.16.2.JPG'
         
         if not image_files:
             continue
