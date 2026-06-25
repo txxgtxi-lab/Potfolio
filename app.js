@@ -14,12 +14,6 @@ function renderPortfolio() {
   const wrapper = document.getElementById("gallery-wrapper");
   wrapper.innerHTML = ""; // Clear existing
 
-  // Update dynamic project count badge
-  const badge = document.getElementById("project-count-badge");
-  if (badge) {
-    badge.textContent = `${projects.length} COMMERCIAL PROJECTS`;
-  }
-
   projects.forEach(project => {
     // Create Section Container
     const section = document.createElement("section");
