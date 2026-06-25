@@ -91,7 +91,7 @@ def generate_database():
         
         # Sample at most 6 images, evenly distributed, with strict deduplication
         total_files = len(image_files)
-        if total_files > 6:
+        if total_files > 6 and 'botus' not in folder_name.lower():
             seen_indices = set()
             sampled_files = []
             step = (total_files - 1) / 5.0
@@ -155,6 +155,65 @@ def generate_database():
             'meta': f"Stills from Onelight color grading project: {clean_title}",
             'images': images
         })
+        
+        # Add VFX project right after BOTUS
+        if '20250307 botus' in folder_name.lower():
+            vfx_folder = os.path.join(colorist_dir, folder_name, 'VFX')
+            if os.path.exists(vfx_folder) and os.path.isdir(vfx_folder):
+                vfx_metadata = [
+                    {
+                        'file': '1/1.jpg',
+                        'title': 'VFX Set 1 - Step 01 (Original Plate)',
+                        'desc': 'ภาพดิบก่อนเริ่มทำเทคนิคพิเศษ'
+                    },
+                    {
+                        'file': '1/2.jpg',
+                        'title': 'VFX Set 1 - Step 02 (Blue Screen Keying)',
+                        'desc': 'การเจาะแยกตัวละครออกจากฉากหลัง'
+                    },
+                    {
+                        'file': '1/3.jpg',
+                        'title': 'VFX Set 1 - Step 03 (Compositing & Grading)',
+                        'desc': 'ภาพสำเร็จรวมฉากหลังพร้อมปรับแต่งโทนสี'
+                    },
+                    {
+                        'file': '2/1.jpg',
+                        'title': 'VFX Set 2 - Step 01 (Original Plate)',
+                        'desc': 'ภาพดิบแสดงจอโน้ตบุ๊กเปล่าและกรีนมาร์กเกอร์'
+                    },
+                    {
+                        'file': '2/2.jpg',
+                        'title': 'VFX Set 2 - Step 02 (Screen Masking & Tracking)',
+                        'desc': 'การทำแทร็กกิงหน้าจอเพื่อเตรียมซ้อนภาพ'
+                    },
+                    {
+                        'file': '2/3.jpg',
+                        'title': 'VFX Set 2 - Step 03 (Screen Insertion & Grading)',
+                        'desc': 'ภาพสำเร็จซ้อนวิดีโอลงบนจอโน้ตบุ๊กพร้อมปรับสี'
+                    }
+                ]
+                
+                vfx_images = []
+                for vfx_meta in vfx_metadata:
+                    vfx_file = vfx_meta['file']
+                    if os.path.exists(os.path.join(vfx_folder, vfx_file)):
+                        vfx_rel_path = os.path.join(vfx_folder, vfx_file).replace('\\', '/')
+                        vfx_images.append({
+                            'src': vfx_rel_path,
+                            'title': vfx_meta['title'],
+                            'desc': vfx_meta['desc'],
+                            'layout': 'span-normal'
+                        })
+                
+                if vfx_images:
+                    projects.append({
+                        'id': 'botus-vfx',
+                        'title': 'BOTUS (VFX Breakdown)',
+                        'category': 'vfx',
+                        'typeLabel': 'VFX Breakdown',
+                        'meta': 'ขั้นตอนการทำงาน VFX ในภาพยนตร์ Botus',
+                        'images': vfx_images
+                    })
         
     # Write to database.js
     with open(output_file, 'w', encoding='utf-8') as f:

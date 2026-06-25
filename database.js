@@ -221,34 +221,103 @@ const projects = [
         "layout": "span-wide"
       },
       {
-        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.5.4.jpg",
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.5.2.jpg",
         "title": "Frame 02",
         "desc": "Onelight color grading showcase still from Botus",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.3.jpg",
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.5.3.jpg",
         "title": "Frame 03",
         "desc": "Onelight color grading showcase still from Botus",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.6.jpg",
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.5.4.jpg",
         "title": "Frame 04",
         "desc": "Onelight color grading showcase still from Botus",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 214223_1.1.1.jpg",
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.1.jpg",
         "title": "Frame 05",
         "desc": "Onelight color grading showcase still from Botus",
         "layout": "span-normal"
       },
       {
-        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 214409_1.20.1.jpg",
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.2.jpg",
         "title": "Frame 06",
         "desc": "Onelight color grading showcase still from Botus",
         "layout": "span-wide"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.3.jpg",
+        "title": "Frame 07",
+        "desc": "Onelight color grading showcase still from Botus",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.4.jpg",
+        "title": "Frame 08",
+        "desc": "Onelight color grading showcase still from Botus",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.6.jpg",
+        "title": "Frame 09",
+        "desc": "Onelight color grading showcase still from Botus",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.7.jpg",
+        "title": "Frame 10",
+        "desc": "Onelight color grading showcase still from Botus",
+        "layout": "span-normal"
+      }
+    ]
+  },
+  {
+    "id": "botus-vfx",
+    "title": "BOTUS (VFX Breakdown)",
+    "category": "vfx",
+    "typeLabel": "VFX Breakdown",
+    "meta": "ขั้นตอนการทำงาน VFX ในภาพยนตร์ Botus",
+    "images": [
+      {
+        "src": "Pot/Colorist/20250307 Botus/VFX/1/1.jpg",
+        "title": "VFX Set 1 - Step 01 (Original Plate)",
+        "desc": "ภาพดิบก่อนเริ่มทำเทคนิคพิเศษ",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/VFX/1/2.jpg",
+        "title": "VFX Set 1 - Step 02 (Blue Screen Keying)",
+        "desc": "การเจาะแยกตัวละครออกจากฉากหลัง",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/VFX/1/3.jpg",
+        "title": "VFX Set 1 - Step 03 (Compositing & Grading)",
+        "desc": "ภาพสำเร็จรวมฉากหลังพร้อมปรับแต่งโทนสี",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/VFX/2/1.jpg",
+        "title": "VFX Set 2 - Step 01 (Original Plate)",
+        "desc": "ภาพดิบแสดงจอโน้ตบุ๊กเปล่าและกรีนมาร์กเกอร์",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/VFX/2/2.jpg",
+        "title": "VFX Set 2 - Step 02 (Screen Masking & Tracking)",
+        "desc": "การทำแทร็กกิงหน้าจอเพื่อเตรียมซ้อนภาพ",
+        "layout": "span-normal"
+      },
+      {
+        "src": "Pot/Colorist/20250307 Botus/VFX/2/3.jpg",
+        "title": "VFX Set 2 - Step 03 (Screen Insertion & Grading)",
+        "desc": "ภาพสำเร็จซ้อนวิดีโอลงบนจอโน้ตบุ๊กพร้อมปรับสี",
+        "layout": "span-normal"
       }
     ]
   },
