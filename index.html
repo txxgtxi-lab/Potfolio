@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Archive | Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="พอร์ตโฟลิโอผลงานการปรับสีภาพ (Onelight Stills) และการถ่ายภาพ (Photography Gallery) ระดับมืออาชีพ">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Background Glows -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+ 
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-accent">VISUAL</span> ARCHIVE
+      </div>
+      
+      <nav class="main-nav">
+        <span class="nav-badge" id="project-count-badge" style="font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; color: var(--accent-gold); border: 1px solid var(--border-color); padding: 0.4rem 0.8rem; border-radius: var(--radius-sm); letter-spacing: 1px;">20 COMMERCIAL PROJECTS</span>
+      </nav>
+
+      <div class="actions">
+        <button id="btn-pdf" class="btn btn-primary" title="ดาวน์โหลดพอร์ตโฟลิโอ PDF">
+          <i data-lucide="download"></i>
+          <span>DOWNLOAD PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Introduction -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">CREATIVE STRENGTHS IN COLOR GRADING</h1>
+      <p class="hero-subtitle">
+        รวบรวมผลงานการปรับแต่งโทนสีภาพนิ่ง (Onelight Stills) จากภาพยนตร์ ซีรีส์ และโฆษณา 
+        ถ่ายทอดอารมณ์ความรู้สึกและมิติของภาพผ่านการออกแบบแสง สี อย่างพิถีพิถันในทุกเฟรม
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Showcase Area -->
+  <main class="portfolio-container">
+    
+    <!-- Gallery Sections will be dynamically rendered here -->
+    <div id="gallery-wrapper"></div>
+    
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox-modal">
+    <span class="lightbox-close">&times;</span>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous Image">
+      <i data-lucide="chevron-left"></i>
+    </button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next Image">
+      <i data-lucide="chevron-right"></i>
+    </button>
+    
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Lightbox image">
+      <div class="lightbox-details">
+        <h3 id="lightbox-project-title">Project Name</h3>
+        <p id="lightbox-image-desc">Image details and specs</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PDF Preparation Container (Hidden on UI, used for compilation) -->
+  <div id="pdf-container" class="pdf-hidden-container"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Visual Archive. Crafted with precision and light.</p>
+    </div>
+  </footer>
+
+  <!-- html2pdf.js CDN (required for PDF compilation) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <!-- Data and Main Script -->
+  <script src="database.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+# Ignore everything in Pot by default
+Pot/*
+
+# Unignore Colorist directory structure
+!Pot/Colorist/
+Pot/Colorist/*
+
+# Unignore folder: Pot/Colorist/20230708 Sherlock holmes
+!Pot/Colorist/20230708 Sherlock holmes/
+Pot/Colorist/20230708 Sherlock holmes/*
+!Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.1.jpg
+!Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.11.jpg
+!Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.14.jpg
+!Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.4.jpg
+!Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.6.jpg
+!Pot/Colorist/20230708 Sherlock holmes/Still 2024-12-04 221404_1.7.9.jpg
+
+# Unignore folder: Pot/Colorist/20230817 Way down we go
+!Pot/Colorist/20230817 Way down we go/
+Pot/Colorist/20230817 Way down we go/*
+!Pot/Colorist/20230817 Way down we go/Still 2024-12-04 215202_1.1.1.PRE.jpg
+!Pot/Colorist/20230817 Way down we go/Still 2024-12-04 215202_1.2.1.PRE.jpg
+!Pot/Colorist/20230817 Way down we go/Still 2024-12-04 215202_1.3.1.PRE.jpg
+!Pot/Colorist/20230817 Way down we go/Still 2024-12-04 215202_1.6.1.PRE.jpg
+!Pot/Colorist/20230817 Way down we go/Still 2024-12-04 215202_1.6.2.PRE.jpg
+!Pot/Colorist/20230817 Way down we go/Still 2024-12-04 215202_1.6.3.PRE.jpg
+
+# Unignore folder: Pot/Colorist/20240427  Hugry
+!Pot/Colorist/20240427  Hugry/
+Pot/Colorist/20240427  Hugry/*
+!Pot/Colorist/20240427  Hugry/Still 2024-12-12 005351_1.4.3_1.1.1.jpg
+!Pot/Colorist/20240427  Hugry/Still 2024-12-12 005351_1.4.3_1.2.1.jpg
+!Pot/Colorist/20240427  Hugry/Still 2024-12-12 005351_1.4.3_1.3.1.jpg
+!Pot/Colorist/20240427  Hugry/Still 2024-12-12 005351_1.4.3_1.4.2.jpg
+!Pot/Colorist/20240427  Hugry/Still 2024-12-12 005351_1.4.3_1.8.1.jpg
+!Pot/Colorist/20240427  Hugry/Still 2024-12-12 005351_1.4.3_1.9.1.jpg
+
+# Unignore folder: Pot/Colorist/20241117 TVC 9 Canile
+!Pot/Colorist/20241117 TVC 9 Canile/
+Pot/Colorist/20241117 TVC 9 Canile/*
+!Pot/Colorist/20241117 TVC 9 Canile/End Scene.jpg
+!Pot/Colorist/20241117 TVC 9 Canile/Still 2024-12-06 030728_1.32.1.POST.jpg
+!Pot/Colorist/20241117 TVC 9 Canile/Still 2024-12-06 030728_1.34.1.PRE.jpg
+!Pot/Colorist/20241117 TVC 9 Canile/Still 2024-12-06 030728_1.40.1.jpg
+
+# Unignore folder: Pot/Colorist/20250307 Botus
+!Pot/Colorist/20250307 Botus/
+Pot/Colorist/20250307 Botus/*
+!Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.5.1.jpg
+!Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.5.4.jpg
+!Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.3.jpg
+!Pot/Colorist/20250307 Botus/Still 2025-02-15 202839_1.7.6.jpg
+!Pot/Colorist/20250307 Botus/Still 2025-02-15 214223_1.1.1.jpg
+!Pot/Colorist/20250307 Botus/Still 2025-02-15 214409_1.20.1.jpg
+
+# Unignore folder: Pot/Colorist/20250512 Nanyang
+!Pot/Colorist/20250512 Nanyang/
+Pot/Colorist/20250512 Nanyang/*
+!Pot/Colorist/20250512 Nanyang/Still 2024-10-27 151725_1.2.1.jpg
+!Pot/Colorist/20250512 Nanyang/Still 2024-10-27 151725_1.30.1.jpg
+!Pot/Colorist/20250512 Nanyang/Still 2024-10-27 151725_1.35.1.jpg
+!Pot/Colorist/20250512 Nanyang/Still 2024-10-27 151725_1.5.2.jpg
+!Pot/Colorist/20250512 Nanyang/Still 2024-10-27 160507_1.20.1.jpg
+!Pot/Colorist/20250512 Nanyang/Still 2024-10-27 160507_1.33.2.jpg
+
+# Unignore folder: Pot/Colorist/20250615 Samkok Fantasy
+!Pot/Colorist/20250615 Samkok Fantasy/
+Pot/Colorist/20250615 Samkok Fantasy/*
+!Pot/Colorist/20250615 Samkok Fantasy/LINE_ALBUM_Samkok Fantasy 20250615_250715_1.jpg
+!Pot/Colorist/20250615 Samkok Fantasy/LINE_ALBUM_Samkok Fantasy 20250615_250715_2.jpg
+!Pot/Colorist/20250615 Samkok Fantasy/LINE_ALBUM_Samkok Fantasy 20250615_250715_3.jpg
+!Pot/Colorist/20250615 Samkok Fantasy/LINE_ALBUM_Samkok Fantasy 20250615_250715_4.jpg
+!Pot/Colorist/20250615 Samkok Fantasy/LINE_ALBUM_Samkok Fantasy 20250615_250715_5.jpg
+!Pot/Colorist/20250615 Samkok Fantasy/LINE_ALBUM_Samkok Fantasy 20250615_250715_6.jpg
+
+# Unignore folder: Pot/Colorist/20250618 BangBang
+!Pot/Colorist/20250618 BangBang/
+Pot/Colorist/20250618 BangBang/*
+!Pot/Colorist/20250618 BangBang/LINE_ALBUM_BangBang 20250618_250715_1.jpg
+!Pot/Colorist/20250618 BangBang/LINE_ALBUM_BangBang 20250618_250715_12.jpg
+!Pot/Colorist/20250618 BangBang/LINE_ALBUM_BangBang 20250618_250715_16.jpg
+!Pot/Colorist/20250618 BangBang/LINE_ALBUM_BangBang 20250618_250715_21.jpg
+!Pot/Colorist/20250618 BangBang/LINE_ALBUM_BangBang 20250618_250715_5.jpg
+!Pot/Colorist/20250618 BangBang/LINE_ALBUM_BangBang 20250618_250715_9.jpg
+
+# Unignore folder: Pot/Colorist/20250716 Loreal
+!Pot/Colorist/20250716 Loreal/
+Pot/Colorist/20250716 Loreal/*
+!Pot/Colorist/20250716 Loreal/to_1.1.1.png
+!Pot/Colorist/20250716 Loreal/to_1.11.1.png
+!Pot/Colorist/20250716 Loreal/to_1.21.1.png
+!Pot/Colorist/20250716 Loreal/to_1.31.1.png
+!Pot/Colorist/20250716 Loreal/to_1.41.1.png
+!Pot/Colorist/20250716 Loreal/to_1.51.1.png
+
+# Unignore folder: Pot/Colorist/20250817 MV Noo Mid Dam
+!Pot/Colorist/20250817 MV Noo Mid Dam/
+Pot/Colorist/20250817 MV Noo Mid Dam/*
+!Pot/Colorist/20250817 MV Noo Mid Dam/1.1.1_1.1.1.PNG
+!Pot/Colorist/20250817 MV Noo Mid Dam/1.18.4_1.18.4.PNG
+!Pot/Colorist/20250817 MV Noo Mid Dam/50p_1.10.2.PNG
+!Pot/Colorist/20250817 MV Noo Mid Dam/A001_1.11.2.PNG
+!Pot/Colorist/20250817 MV Noo Mid Dam/IMG_5644.JPEG
+!Pot/Colorist/20250817 MV Noo Mid Dam/แดด_1.15.1.PNG
+
+# Unignore folder: Pot/Colorist/20250821 SPK SABER
+!Pot/Colorist/20250821 SPK SABER/
+Pot/Colorist/20250821 SPK SABER/*
+!Pot/Colorist/20250821 SPK SABER/LINE_ALBUM_210825_SPK SABER_Onelight_CamB_250914_1.jpg
+!Pot/Colorist/20250821 SPK SABER/LINE_ALBUM_210825_SPK SABER_Onelight_CamB_250914_12.jpg
+!Pot/Colorist/20250821 SPK SABER/LINE_ALBUM_210825_SPK SABER_Onelight_CamB_250914_23.jpg
+!Pot/Colorist/20250821 SPK SABER/LINE_ALBUM_210825_SPK SABER_Onelight_CamB_250914_34.jpg
+!Pot/Colorist/20250821 SPK SABER/LINE_ALBUM_210825_SPK SABER_Onelight_CamB_250914_45.jpg
+!Pot/Colorist/20250821 SPK SABER/LINE_ALBUM_210825_SPK SABER_Onelight_CamB_250914_56.jpg
+
+# Unignore folder: Pot/Colorist/20250830 LOTUS'S
+!Pot/Colorist/20250830 LOTUS'S/
+Pot/Colorist/20250830 LOTUS'S/*
+!Pot/Colorist/20250830 LOTUS'S/LINE_ALBUM_300825_LOTUS’S_CamA_Onelight_250914_1.jpg
+!Pot/Colorist/20250830 LOTUS'S/LINE_ALBUM_300825_LOTUS’S_CamA_Onelight_250914_12.jpg
+!Pot/Colorist/20250830 LOTUS'S/LINE_ALBUM_300825_LOTUS’S_CamA_Onelight_250914_22.jpg
+!Pot/Colorist/20250830 LOTUS'S/LINE_ALBUM_300825_LOTUS’S_CamB_Onelight_250914_16.jpg
+!Pot/Colorist/20250830 LOTUS'S/LINE_ALBUM_300825_LOTUS’S_CamB_Onelight_250914_6.jpg
+!Pot/Colorist/20250830 LOTUS'S/LINE_ALBUM__250914_1.jpg
+
+# Unignore folder: Pot/Colorist/20250917 Cute Press Hybrid
+!Pot/Colorist/20250917 Cute Press Hybrid/
+Pot/Colorist/20250917 Cute Press Hybrid/*
+!Pot/Colorist/20250917 Cute Press Hybrid/default_1.1.1.JPG
+!Pot/Colorist/20250917 Cute Press Hybrid/default_1.13.3.JPG
+!Pot/Colorist/20250917 Cute Press Hybrid/default_1.21.4.JPG
+!Pot/Colorist/20250917 Cute Press Hybrid/default_1.4.2 2.JPG
+!Pot/Colorist/20250917 Cute Press Hybrid/default_1.6.1.JPG
+!Pot/Colorist/20250917 Cute Press Hybrid/default_1.9.4.JPG
+
+# Unignore folder: Pot/Colorist/20251012 MV LumTun
+!Pot/Colorist/20251012 MV LumTun/
+Pot/Colorist/20251012 MV LumTun/*
+!Pot/Colorist/20251012 MV LumTun/LINE_ALBUM_MV_LUM TUN_Onelight_251013_1.jpg
+!Pot/Colorist/20251012 MV LumTun/LINE_ALBUM_MV_LUM TUN_Onelight_251013_15.jpg
+!Pot/Colorist/20251012 MV LumTun/LINE_ALBUM_MV_LUM TUN_Onelight_251013_29.jpg
+!Pot/Colorist/20251012 MV LumTun/LINE_ALBUM_MV_LUM TUN_Onelight_251013_43.jpg
+!Pot/Colorist/20251012 MV LumTun/LINE_ALBUM_MV_LUM TUN_Onelight_251013_57.jpg
+!Pot/Colorist/20251012 MV LumTun/LINE_ALBUM_MV_LUM TUN_Onelight_251013_71.jpg
+
+# Unignore folder: Pot/Colorist/20251015 Rev Kratae Veena
+!Pot/Colorist/20251015 Rev Kratae Veena/
+Pot/Colorist/20251015 Rev Kratae Veena/*
+!Pot/Colorist/20251015 Rev Kratae Veena/Still 2025-10-23 025136_1.19.1.jpg
+!Pot/Colorist/20251015 Rev Kratae Veena/Still 2025-10-23 025136_1.6.1.jpg
+!Pot/Colorist/20251015 Rev Kratae Veena/default_1.1.1.jpg
+!Pot/Colorist/20251015 Rev Kratae Veena/default_1.14.1.jpg
+!Pot/Colorist/20251015 Rev Kratae Veena/default_1.19.1.jpg
+!Pot/Colorist/20251015 Rev Kratae Veena/default_1.9.1.jpg
+
+# Unignore folder: Pot/Colorist/20251020 Garnier
+!Pot/Colorist/20251020 Garnier/
+Pot/Colorist/20251020 Garnier/*
+!Pot/Colorist/20251020 Garnier/default_1.12.3 4.JPG
+!Pot/Colorist/20251020 Garnier/default_1.16.1 2.JPG
+!Pot/Colorist/20251020 Garnier/default_1.25.1 3.JPG
+!Pot/Colorist/20251020 Garnier/default_1.3.1.JPG
+!Pot/Colorist/20251020 Garnier/default_1.7.3 3.JPG
+!Pot/Colorist/20251020 Garnier/default_1.9.3 2.JPG
+
+# Unignore folder: Pot/Colorist/20251129-30 Red Door Nan
+!Pot/Colorist/20251129-30 Red Door Nan/
+Pot/Colorist/20251129-30 Red Door Nan/*
+!Pot/Colorist/20251129-30 Red Door Nan/1764693837288.jpg
+!Pot/Colorist/20251129-30 Red Door Nan/1764693864299.jpg
+!Pot/Colorist/20251129-30 Red Door Nan/1764693891614.jpg
+!Pot/Colorist/20251129-30 Red Door Nan/1764693919886.jpg
+!Pot/Colorist/20251129-30 Red Door Nan/1764787896793.jpg
+!Pot/Colorist/20251129-30 Red Door Nan/1764787922360.jpg
+
+# Unignore folder: Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/
+Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/*
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/Still 2026-01-21 044414_1.13.2.jpg
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/Still 2026-01-21 044414_1.20.2.jpg
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/Still 2026-01-21 044414_1.27.1.jpg
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/Still 2026-01-21 044414_1.4.1.jpg
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/Still 2026-01-21 045946_1.5.1.jpg
+!Pot/Colorist/20260120 หนังสั้น ตำรวจจับตำรวจร้าย/Still 2026-01-21 045946_1.6.3.jpg
+
+# Unignore folder: Pot/Colorist/20260204 หนังสั้น ก่อนเช้า
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/
+Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/*
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/Final/LINE_ALBUM_Q1_Onelight_260625_22.jpg
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/Final/LINE_ALBUM_Q1_Onelight_260625_39.jpg
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/Final/LINE_ALBUM_Q1_Onelight_260625_55.jpg
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/Final/LINE_ALBUM_Q1_Onelight_260625_6.jpg
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/Final/LINE_ALBUM_Q1_Onelight_260625_72.jpg
+!Pot/Colorist/20260204 หนังสั้น ก่อนเช้า/Final/LINE_ALBUM_Q1_Onelight_260625_88.jpg
+
+# Unignore folder: Pot/Colorist/20260206 LISTERINE POCKETMIST
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/
+Pot/Colorist/20260206 LISTERINE POCKETMIST/*
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_1.13.2.jpg
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_1.16.1.jpg
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_1.19.1.jpg
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_1.9.1.jpg
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_2.1.1.jpg
+!Pot/Colorist/20260206 LISTERINE POCKETMIST/Main/Still 2026-03-15 184644_3.1.1.jpg
+
+# Ignore config and log files
+.agents/
+verify_dedup.py
+create_gitignore.py
