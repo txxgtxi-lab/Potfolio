@@ -4,7 +4,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   renderPortfolio();
   initializeLightbox();
-  initializePDFExporter();
   
   // Re-run Lucide Icons to format elements
   lucide.createIcons();
@@ -167,101 +166,3 @@ function navigateLightbox(direction) {
 }
 
 // Navigation & category filters removed as all projects are Onelight
-
-/* ==========================================================================
-   PDF EXPORTER (HTML2PDF Compilation Engine)
-   ========================================================================== */
-function initializePDFExporter() {
-  const exportBtn = document.getElementById("btn-pdf");
-  
-  exportBtn.addEventListener("click", () => {
-    // Show download visual feedback
-    const originalContent = exportBtn.innerHTML;
-    exportBtn.disabled = true;
-    exportBtn.innerHTML = `<span style="font-size:0.75rem;">GENERATING PDF...</span>`;
-    
-    // Compile PDF Layout in temporary shadow DOM element
-    const pdfSource = document.createElement("div");
-    pdfSource.style.fontFamily = "'Outfit', sans-serif";
-    pdfSource.style.color = "#f0f0f5";
-    pdfSource.style.background = "#08080a";
-    pdfSource.style.width = "210mm";
-    pdfSource.style.margin = "0";
-    pdfSource.style.padding = "0";
-    
-    // Add Cover Page
-    pdfSource.innerHTML = `
-      <div class="pdf-page" style="box-sizing: border-box; width: 210mm; height: 296mm; padding: 40mm 20mm; text-align: center; border: 12px double #d4af37; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #08080a; margin: 0; position: relative;">
-        <!-- Accent Glows (drawn via CSS gradient in PDF) -->
-        <div style="position: absolute; width: 150mm; height: 150mm; border-radius: 50%; background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, rgba(0,0,0,0) 70%); top: -50mm; right: -50mm; pointer-events: none;"></div>
-        <div style="position: absolute; width: 150mm; height: 150mm; border-radius: 50%; background: radial-gradient(circle, rgba(58, 80, 107, 0.08) 0%, rgba(0,0,0,0) 70%); bottom: -50mm; left: -50mm; pointer-events: none;"></div>
-
-        <h1 style="font-family: 'Syne', sans-serif; font-size: 38pt; font-weight: 800; color: #ffffff; letter-spacing: 5px; margin: 0 0 15px 0; text-transform: uppercase; line-height: 1.2;">
-          <span style="color: #d4af37;">VISUAL</span> ARCHIVE
-        </h1>
-        <div style="width: 80px; height: 2px; background-color: #d4af37; margin: 15px auto 25px auto;"></div>
-        <p style="font-size: 13pt; color: #a0a0b0; font-weight: 300; letter-spacing: 3px; text-transform: uppercase; margin: 0 0 100px 0;">Onelight Commercial Portfolio</p>
-        <p style="font-size: 9.5pt; color: #6e6e7d; font-style: italic; margin: 0; letter-spacing: 1px;">Curated Premium Lookbook</p>
-      </div>
-    `;
-    
-    // Append each project as a separate page block
-    projects.forEach((project) => {
-      const sectionHtml = `
-        <div class="pdf-page" style="box-sizing: border-box; width: 210mm; height: 296mm; padding: 20mm 15mm; background-color: #08080a; margin: 0; display: flex; flex-direction: column; justify-content: flex-start; position: relative;">
-          <!-- Accent Glows -->
-          <div style="position: absolute; width: 120mm; height: 120mm; border-radius: 50%; background: radial-gradient(circle, rgba(212, 175, 55, 0.04) 0%, rgba(0,0,0,0) 70%); top: -30mm; right: -30mm; pointer-events: none;"></div>
-          
-          <!-- Section Header -->
-          <div style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 10px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: flex-end; width: 100%;">
-            <div style="text-align: left;">
-              <p style="font-size: 8pt; font-weight: 700; color: #d4af37; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 3px 0;">${project.category}</p>
-              <h2 style="font-family: 'Syne', sans-serif; font-size: 18pt; font-weight: 700; margin: 0; color: #ffffff; letter-spacing: 0.5px;">${project.title}</h2>
-            </div>
-            <span style="font-size: 8pt; color: #a0a0b0; font-style: italic; font-weight: 300;">${project.typeLabel}</span>
-          </div>
-          
-          <p style="font-size: 9pt; color: #a0a0b0; margin: 0 0 20px 0; max-width: 100%; line-height: 1.5; font-weight: 300; text-align: left;">${project.meta}</p>
-          
-          <!-- Image Grid (2 columns, up to 3 rows) -->
-          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; width: 100%;">
-            ${project.images.map(img => `
-              <div style="border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 6px; padding: 8px; background-color: rgba(22, 22, 28, 0.6); box-shadow: 0 4px 10px rgba(0,0,0,0.3); text-align: left;">
-                <div style="aspect-ratio: 16/9; overflow: hidden; border-radius: 4px; background-color: #101014; margin-bottom: 5px;">
-                  <img src="${img.src}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                </div>
-                <h4 style="font-size: 8.5pt; font-weight: 600; color: #f0f0f5; margin: 0 0 1px 0;">${img.title}</h4>
-                <p style="font-size: 7.5pt; color: #d4af37; margin: 0; font-weight: 300;">${img.desc}</p>
-              </div>
-            `).join("")}
-          </div>
-        </div>
-      `;
-      pdfSource.innerHTML += sectionHtml;
-    });
-
-    // html2pdf Options Configuration
-    const opt = {
-      margin: 0,
-      filename: 'visual_archive_portfolio.pdf',
-      image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, useCORS: true, logging: false },
-      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-      pagebreak: { mode: 'before', before: '.pdf-page' }
-    };
-    
-    // Execute html2pdf action
-    html2pdf().from(pdfSource).set(opt).save().then(() => {
-      // Restore download button
-      exportBtn.innerHTML = originalContent;
-      exportBtn.disabled = false;
-      lucide.createIcons();
-    }).catch(err => {
-      console.error("PDF generation failed:", err);
-      exportBtn.innerHTML = originalContent;
-      exportBtn.disabled = false;
-      lucide.createIcons();
-      alert("ไม่สามารถบันทึก PDF ได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง");
-    });
-  });
-}
